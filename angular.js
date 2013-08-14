@@ -3,19 +3,19 @@ var carroJSON = {
     marca:          'Toyota',
     modelo:         'Yaris',
     ano:            '2001',
-    inscrito:        true,
+    inscrito:        false,
     kilometraje:     125000,
     duenos: ['Jorge Rojas'],
     motor: {
         cilindro: "1500",
         kilometrosGalon: "222",
-        peso: 1000
+        peso: 1500
     }
 }
 
 carroJSON.duenos.push("Andres","Oscar", "Christian");
 carroJSON['color'] = "blanco";
-carroJSON.placa = 252692;
+carroJSON.placa = 253682;
 
 console.log(carroJSON); // fijese en la consola, tambien puede hacer alert y darle Run, pruebe con la function JSON.stringify(); https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 
